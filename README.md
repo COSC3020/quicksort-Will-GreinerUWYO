@@ -18,10 +18,10 @@ The worst-case scenario for this function would require the lowest value to be p
 
 ## Plagarism Statement and Sources
 
-Used the following website [geeksforgeeks](https://www.geeksforgeeks.org/quick-sort-algorithm/#) and the following video [BroCode](https://www.youtube.com/watch?v=Vtckgz38QHs&ab_channel=BroCode) to understand the basics of quicksort, and write that fundamental logic. 
+Used the following website [geeksforgeeks](https://www.geeksforgeeks.org/quick-sort-algorithm/#) and the following video [BroCode](https://www.youtube.com/watch?v=Vtckgz38QHs&ab_channel=BroCode) to understand the basics of quicksort, and write that fundamental logic. Used their end based structure instead of the start based one in lectures. Near the end, I glanced at [geeksforgeeks](https://www.geeksforgeeks.org/iterative-quick-sort/#) but didn't use that code structure.
 
 Used class slides and videos to understand partition code and understand worst case runtimes. 
 
-Worked with fellow student Lily Brongo to figure out the stack architecture and the general format of the code.
+Worked with fellow student Lily Brongo to figure out the stack architecture and the general format of the code. Used her method of pushing the start and end of each partition to the stack and then popping them to sort.
 
 I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
