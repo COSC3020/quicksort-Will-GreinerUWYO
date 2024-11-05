@@ -1,16 +1,13 @@
 function quicksort(array) {
     let endpoint = array.length - 1;
-    let temp = 0;
-    let i = -1;
-    let j = 0;
     
     let stack = [];
     stack.push(0);
     stack.push(endpoint);
     
     while (stack.length > 0) {
-        let start = stack.pop();
         let end = stack.pop();
+        let start = stack.pop();
 
         let pivot = partition(array,start,end);
 
